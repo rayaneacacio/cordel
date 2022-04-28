@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color:  white;
+    margin: 0px;
+}
+
+nav{
+    height: 15%;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 10vw;
+    white-space: nowrap;
+    margin-bottom: 2vw;
+}
+
+nav > p{
+    font-size: 2vw;
+    margin-top: -30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    background-color: white;
+    padding-left: 1.5vw;
+    margin-bottom: 0px;
+    height: 50vw;
+}
+
+article#imagem1{
+    background-image: url(imagens/Foto-China-Montañas-1000px.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vw;
+    width: 97%;
+    background-size: cover;
+}
+
+article#imagem2{
+    background-image: url(imagens/leitura.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vw;
+    width: 98%;
+    background-size: cover;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 45vw;
+    height: 35vw;
+    line-height: 2vw;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+
+    transform:translate(2%, 10%);
+}
+
+div.especial{
+    background-color: rgba(0, 0, 0, 0.393);
+    color: white;
+}
+
+footer{
+    padding: 1%;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
