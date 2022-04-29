@@ -50,6 +50,7 @@ article#imagem1{
     height: 65vw;
     width: 97%;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
 }
 
 article#imagem2{
@@ -59,13 +60,13 @@ article#imagem2{
     height: 65vw;
     width: 98%;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.555);
 }
 
 div{
     background-color: rgb(255, 255, 255);
     color: black;
-    width: 60vw;
-    height: 50vw;
+    display: inline-block;
     line-height: 2vw;
     font-size: 5vw;
     font-style: italic;
@@ -73,6 +74,7 @@ div{
     padding-left: 2vw;
     padding-top: 1vw;
     padding-bottom: 3vw;
+    padding-right: 2vw;
 
     transform:translate(2%, 10%);
 }
